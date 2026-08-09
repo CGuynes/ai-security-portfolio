@@ -39,7 +39,7 @@ I design **agent-safe offensive workflows** and the **memory systems** that make
 | **#3619287** | Critical | Resolved | RCE + supply chain via privileged workflow on fork PRs |
 | **#3619288** | Critical | Resolved | RCE + token/secret exposure via privileged workflow |
 
-**Technical story (public-safe):**
+**Technical story:**
 
 1. Privileged GitHub Actions workflows (`pull_request_target`) ran in a context with base-repo secrets.  
 2. Checkout/install/build of untrusted PR material allowed attacker-controlled code execution on the runner.  
@@ -106,7 +106,7 @@ Agent session
 
 ---
 
-## 4. Related systems (supporting, not primary hire reasons)
+## 4. Related systems
 
 | System | What it is | How to read it |
 |--------|------------|----------------|
@@ -139,22 +139,10 @@ See [`TARGET_COMPANIES.md`](./TARGET_COMPANIES.md) for organizations that histor
 
 ---
 
-## 7. Honest gaps (say this if asked)
-
-- Implementation is **AI-directed**; not positioning as pure leetcode / classic senior product SWE.  
-- Personal research/ops platforms—not multi-tenant products with external customer SLAs.  
-- CRISP is a measured prototype, not the primary hire reason.  
-- Covenant vault: **designed + SSS core**; full production envelope not claimed complete.
-
----
-
-## 8. Documents in this repo
+## 7. Documents in this repo
 
 | File | Purpose |
 |------|---------|
-| [README.md](./README.md) | This portfolio (public) |
-| [TARGET_COMPANIES.md](./TARGET_COMPANIES.md) | Companies/orgs that pay for this skillset |
-| [HONESTY_PASS.md](./HONESTY_PASS.md) | Claim matrix—what to say / not say |
-| [INTERVIEW.md](./INTERVIEW.md) | 15–20 min demo plan + pitch |
+| [README.md](./README.md) | This portfolio (public)
 
 **Security note:** This repository is intentionally free of credentials, private IPs, hostnames, tokens, and internal paths. Offensive writeups stay at the public technical-class level; program-specific non-public details are omitted.
