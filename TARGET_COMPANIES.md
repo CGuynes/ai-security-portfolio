@@ -2,27 +2,41 @@
 
 **Skillset package:** AI/agent security + offensive research (CI/supply-chain, MCP/tool abuse class) + multi-agent systems design + process/eval discipline + high-reliability ops + clearance eligibility.
 
-**Primary titles to search:**  
-AI Red Team Engineer · Agent Security Engineer · AI Security Engineer · Security Engineer (AI) · Forward Deployed AI Security · Safeguards / Trust & Safety (technical red team)
+**Work constraint:** **U.S. remote only — not open to relocation.**  
+Do not prioritize hard onsite-only San Francisco (SF), Seattle, NYC, or London seats. Apply to frontier labs only when the posting explicitly allows U.S. remote (or remote-first).
 
-Last reviewed: 2026-08-08. Openings change weekly—verify on careers pages.
+**Primary titles to search:**  
+AI Red Team Engineer · Agent Security Engineer · AI Security Engineer · Security Engineer (AI) · Forward Deployed AI Security · Safeguards / Trust & Safety (technical red team)  
+**+ filters:** `remote` · `United States` · `remote-first`
+
+Last reviewed: 2026-08-09. Openings change weekly—verify on careers pages.
+
+---
+
+## Remote filter (use every time)
+
+| Apply | Skip / deprioritize |
+|-------|---------------------|
+| Explicit **U.S. remote** or remote-first | Onsite-only SF / Seattle / NYC / London |
+| Hybrid optional **and** remote is a real option | “Relocation required” / “must be in office 4–5 days” |
+| Contractor/federal remote or local-to-base (Kings Bay–friendly) | Unpaid “move first, talk later” pipelines |
 
 ---
 
 ## Tier A — Highest skill fit (AI / agent security)
 
-| Org | Why fit | Notes |
-|-----|---------|--------|
-| **[OpenAI](https://openai.com/careers)** | Explicit **Agent Security** team; agentic infra, sandboxing, policy | e.g. Security Engineer, Agent Security (SF / US remote listings have appeared) |
-| **[Anthropic](https://www.anthropic.com/careers)** | Frontier Red Team (Cyber), Safeguards red team, evals | Research Engineer / Red Team Engineer tracks; high bar, high pay |
-| **[Microsoft](https://careers.microsoft.com)** | AI Red Team; PyRIT / Foundry red-teaming agent ecosystem | Large org; multiple AI security lanes |
-| **[Google / DeepMind](https://careers.google.com)** | AI security, trust & safety, offensive security on AI products | Competitive; clearance less central |
-| **[METR](https://metr.org)** | Autonomous AI evals, dangerous-capability measurement | Research/evals culture; strong for process + measurement mindset |
-| **[HiddenLayer](https://hiddenlayer.com/careers)** | AI red team / ML threat ops product company | AI Red Teamer roles have been posted |
-| **[Protect AI](https://protectai.com)** | MLSecOps / AI security platform | Product + research hybrid |
-| **[ActiveFence](https://www.activefence.com)** | Trust & safety / adversarial content at scale | Overlap with adversarial eval |
-| **[Straiker](https://www.straiker.ai)** | Agentic AI red teaming product (continuous adversarial testing) | Startup velocity; agent-security narrative |
-| **[Fiddler AI](https://www.fiddler.ai)** | AI observability + agent red-team content/thought leadership | Security + MLOps crossover |
+| Org | Why fit | Remote notes |
+|-----|---------|--------------|
+| **[OpenAI](https://openai.com/careers)** | Explicit **Agent Security** team; agentic infra, sandboxing, policy | Prefer postings that list **US remote**; skip SF-only |
+| **[Anthropic](https://www.anthropic.com/careers)** | Frontier Red Team (Cyber), Safeguards red team, evals | Many seats SF/London-heavy — apply **only if remote/multi-site remote is listed** |
+| **[Microsoft](https://careers.microsoft.com)** | AI Red Team; PyRIT / Foundry red-teaming agent ecosystem | Often remote/hybrid by role; filter to remote USA |
+| **[Google / DeepMind](https://careers.google.com)** | AI security, trust & safety, offensive security on AI products | Check remote eligibility per req; many are hub-based |
+| **[METR](https://metr.org)** | Autonomous AI evals, dangerous-capability measurement | Confirm remote policy per role |
+| **[HiddenLayer](https://hiddenlayer.com/careers)** | AI red team / ML threat ops product company | Frequently **remote-US** — strong priority |
+| **[Protect AI](https://protectai.com)** | MLSecOps / AI security platform | Often remote-friendly — strong priority |
+| **[ActiveFence](https://www.activefence.com)** | Trust & safety / adversarial content at scale | Verify US remote |
+| **[Straiker](https://www.straiker.ai)** | Agentic AI red teaming product | Startup; confirm remote |
+| **[Fiddler AI](https://www.fiddler.ai)** | AI observability + agent red-team narrative | Verify US remote |
 
 ---
 
@@ -39,18 +53,18 @@ Last reviewed: 2026-08-08. Openings change weekly—verify on careers pages.
 
 ---
 
-## Tier C — Clearance / federal-adjacent (accessible leverage)
+## Tier C — Clearance / federal-adjacent (accessible leverage + remote-friendly)
 
-Your **TS/SCI eligibility + Navy + STIG/ops** is a door pure bounty hunters often lack.
+Your **TS/SCI eligibility + Navy + STIG/ops** is a door pure bounty hunters often lack. Often **more compatible with staying in Kings Bay** than SF lab seats.
 
 | Lane | Examples / where to look |
 |------|---------------------------|
-| **DoD / IC contractors** | Booz Allen, SAIC, Leidos, Peraton, CACI, GDIT, ManTech — search “AI security,” “red team,” “offensive cyber,” “ML security” |
+| **DoD / IC contractors** | Booz Allen, SAIC, Leidos, Peraton, CACI, GDIT, ManTech — search “AI security,” “red team,” “offensive cyber,” “ML security” + **remote** |
 | **Fed AI security startups** | HiddenLayer federal roles; other FedRAMP AI vendors |
-| **GovCloud cloud providers** | AWS (ProServe / security), Azure (MSFT federal), Google Public Sector |
+| **GovCloud cloud providers** | AWS (ProServe / security), Azure (MSFT federal), Google Public Sector — remote where offered |
 | **VDP / bug bounty platforms (staff)** | HackerOne, Bugcrowd — triage/security engineer paths; less AI-specific but real |
 
-Remote from Kings Bay is realistic for many contractor and product remote roles; Big Lab onsite (SF/Seattle) may need relocation willingness.
+**Do not** treat “must relocate to SF” as the price of entry. Clearance-adjacent remote is a first-class path.
 
 ---
 
@@ -67,11 +81,13 @@ Remote from Kings Bay is realistic for many contractor and product remote roles;
 
 ## How to prioritize applications (practical)
 
-1. **Lead packet:** this README + Critical CI narrative + “AI-directed systems design” frame.  
-2. **Tier A first wave (5–10 apps):** OpenAI Agent Security, Anthropic FRT/Safeguards, Microsoft AI Red Team, HiddenLayer, Protect AI, METR-style orgs.  
-3. **Parallel Tier C:** one clearance-friendly contractor pipeline if reactivation is acceptable.  
-4. **Do not lead with** file counts, CVE dump sizes, or “I coded every line.”  
-5. **Do lead with** resolved Criticals + agent memory/process design + threshold-vault *design* language.
+1. **Hard filter:** U.S. remote (or remote-first). No relocation.  
+2. **Lead packet:** README + Critical CI narrative + “AI-directed systems design” frame + remote constraint.  
+3. **First wave (remote-friendly):** HiddenLayer, Protect AI, Microsoft remote AI security, OpenAI **if** US remote listed, other AI security startups with remote-US.  
+4. **Second wave:** Anthropic / lab roles **only** when remote is explicit; otherwise skip.  
+5. **Parallel Tier C:** clearance-friendly contractor pipeline if reactivation is acceptable (often better remote fit than SF labs).  
+6. **Do not lead with** file counts, CVE dump sizes, or “I coded every line.”  
+7. **Do lead with** resolved Criticals + agent memory/process design + threshold-vault *design* language.
 
 ---
 
@@ -86,10 +102,11 @@ Treat numbers as research homework per posting—not guarantees.
 ## Job search queries that match this portfolio
 
 ```
-"AI Red Team" OR "Agent Security" OR "LLM security" engineer
-"Frontier Red Team" OR Safeguards red team
-"ML threat" OR "AI security engineer" remote
-"pull_request_target" OR "GitHub Actions" security engineer
-"forward deployed" AI security
-clearance "AI security" OR "red team" (for Tier C)
+"AI Red Team" OR "Agent Security" OR "LLM security" engineer remote
+"ML threat" OR "AI security engineer" "United States" remote
+"pull_request_target" OR "GitHub Actions" security engineer remote
+"forward deployed" AI security remote
+clearance "AI security" OR "red team" remote (Tier C)
 ```
+
+Avoid queries that bias to “San Francisco onsite” unless you add `remote`.

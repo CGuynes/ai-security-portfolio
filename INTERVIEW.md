@@ -20,6 +20,10 @@ I design agent-safe offensive workflows and the memory systems that keep them co
 - Never decrypt or screen-share secrets, private IPs, or live program non-public data.  
 - If asked “can you code?”: “I read, debug, and specify precisely. My edge is system design under security constraints and adversarial evaluation.”
 
+## Logistics (say early if asked)
+
+U.S. **remote only**. Based in Kings Bay, GA. Not open to relocating for San Francisco / Seattle / NYC onsite-only roles. Fully able to work async and high-trust remote ops.
+
 ## Closing line
 
-I’m looking for a seat where attacking and governing agentic systems is the job—not where the bar is pure leetcode product SWE.
+I’m looking for a remote seat where attacking and governing agentic systems is the job—not where the bar is pure leetcode product SWE or relocation.

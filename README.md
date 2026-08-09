@@ -6,14 +6,15 @@
 
 **Contact:** [LinkedIn](https://www.linkedin.com/in/guyneschristopher) · cguynes2023@gmail.com  
 
-**Location:** Kings Bay, GA (remote-capable)  
+**Location:** Kings Bay, GA  
+**Work arrangement:** **U.S. remote only — not open to relocation** (fully remote-capable; no uprooting for San Francisco / Seattle / NYC onsite-only seats)  
 **Clearance:** TS/SCI (granted May 2022; eligible for reactivation through May 2027)
 
 ---
 
 ## 30-second pitch
 
-I design **agent-safe offensive workflows** and the **memory systems** that make them durable across sessions. Independently, I research CI/CD and agent-adjacent attack surface—including **Critical GitHub Actions `pull_request_target` supply-chain findings that resolved on HackerOne**. Strongest fit: **AI Agent Security / AI Red Team / Agent Security Research**, not generic senior product SWE.
+I design **agent-safe offensive workflows** and the **memory systems** that make them durable across sessions. Independently, I research CI/CD and agent-adjacent attack surface—including **Critical GitHub Actions `pull_request_target` supply-chain findings that resolved on HackerOne**. Strongest fit: **AI Agent Security / AI Red Team / Agent Security Research**, not generic senior product SWE. Seeking **U.S. remote** roles only.
 
 ---
 
@@ -132,7 +133,9 @@ Agent session
 3. **Forward-deployed / Solutions** roles for agentic platforms (security flavor)  
 4. **Security Engineer** (AI automation / hybrid SecOps) as accessible bridge  
 
-See [`TARGET_COMPANIES.md`](./TARGET_COMPANIES.md) for organizations that historically pay for this mix.
+**Constraint:** U.S. remote (or remote-first). Not relocating. Skip hard onsite-only San Francisco / Seattle / London seats unless a real remote track exists.
+
+See [`TARGET_COMPANIES.md`](./TARGET_COMPANIES.md) for organizations that historically pay for this mix (remote-filtered guidance included).
 
 ---
 
