@@ -1,20 +1,23 @@
-# Christopher Guynes — AI Systems & Offensive Security Portfolio
+# Christopher Guynes — Offensive Security Engineer & Bug-Bounty Researcher
 
-**Profile:** AI systems designer and offensive security practitioner specializing in multi-agent memory/process design, adversarial evaluation of automated workflows, and high-reliability technical leadership (U.S. Navy veteran).  
+**Headline:** Offensive Security Engineer | Penetration Tester & Bug Bounty Researcher
+
+**Profile:** Offensive Security Engineer and bug-bounty researcher specializing in AI-agent security: multi-agent memory and process design, adversarial evaluation of automated workflows, and high-reliability technical leadership (U.S. Navy veteran).
 
 **How I work:** I architect systems, define evaluation criteria and quality gates, and direct advanced coding models to implement under my oversight. I do not claim classic decade-deep personal line-by-line authorship of every module. I claim design ownership, process discipline, and measurable research outcomes.
 
-**Contact:** [LinkedIn](https://www.linkedin.com/in/guyneschristopher) · cguynes2023@gmail.com  
+**Contact:** [LinkedIn](https://www.linkedin.com/in/guyneschristopher) · cguynes2023@gmail.com
 
-**Location:** Kings Bay, GA  
+**Location:** Kingsland, GA  
 **Work arrangement:** **U.S. remote only — not open to relocation** (fully remote-capable; no uprooting for San Francisco / Seattle / NYC onsite-only seats)  
-**Clearance:** TS/SCI (granted May 2022; eligible for reactivation through May 2027)
+**Clearance:** TS/SCI (inactive, not expired; eligible for reactivation). Granted May 2022.  
+**Education:** Pursuing a B.S. in Cybersecurity at SANS Technology Institute (expected 2028). GIAC GSEC, GFACT. SANS SEC504 complete; GCIH exam in progress.
 
 ---
 
 ## 30-second pitch
 
-I design **agent-safe offensive workflows** and the **memory systems** that make them durable across sessions. Independently, I research CI/CD and agent-adjacent attack surface—including **Critical GitHub Actions `pull_request_target` supply-chain findings that resolved on HackerOne**. Strongest fit: **AI Agent Security / AI Red Team / Agent Security Research**, not generic senior product SWE. Seeking **U.S. remote** roles only.
+I independently research vulnerabilities and design **agent-safe offensive workflows** plus the **memory systems** that make them durable across sessions. That work includes **Critical GitHub Actions `pull_request_target` supply-chain findings that resolved on HackerOne**, and authorized research across 25+ programs on HackerOne, Intigriti, Bugcrowd, and YesWeHack. Strongest fit: **Offensive Security Engineer / Penetration Tester / AI Agent Security**, not generic senior product SWE. Seeking **U.S. remote** roles only.
 
 ---
 
@@ -23,10 +26,12 @@ I design **agent-safe offensive workflows** and the **memory systems** that make
 | Signal | Detail |
 |--------|--------|
 | **Critical findings** | HackerOne **#3619287** and **#3619288** — Critical, **resolved** — RCE + secret/PAT exposure via `pull_request_target` CI workflows (supply-chain class) |
+| **Bug bounty breadth** | 25+ programs on HackerOne, Intigriti, Bugcrowd, and YesWeHack. Finding classes include high-severity SSRF via DNS rebinding, authentication bypass, S3 bucket enumeration, and hardcoded credentials in a decompiled Android APK. Chained P1+P2 PoC against OpenAI's MCP program on Bugcrowd. |
 | **Agent memory** | Designed multi-store agent memory plane (SQL source of truth + LLM-facing AIDL mirror + journals + vectors) with ARMD-first lookup and write-back discipline |
 | **Process law** | Encoded scope gates, PoC/callback requirements, and campaign-state memory so AI-assisted hunting stays authorized and non-regressive |
 | **Threshold vault (designed)** | Designed passphrase-gated AES-256-GCM under Shamir **3-of-5** master key (no single superuser); SSS core implemented/tested; full production envelope is intentional completion path |
-| **Ops background** | Navy Lead Technical Supervisor; Help Desk Manager / Security Officer; DoD STIG environments; GIAC GFACT, GSEC; GCIH in progress |
+| **Experience** | Help Desk Manager / Security Officer, SimpleTech LLC (Sep 2025 – Nov 2026); Systems Analyst, Astraeus / Chenega (DoD STIG, 8 servers on Unclassified and Secret networks); U.S. Navy Lead Missile Technician |
+| **Education & certs** | B.S. Cybersecurity in progress, SANS Technology Institute (expected 2028); GIAC GSEC, GFACT; SEC504 complete, GCIH exam in progress |
 
 ---
 
@@ -47,6 +52,10 @@ I design **agent-safe offensive workflows** and the **memory systems** that make
 4. Standard mitigation: do not run untrusted code in privileged contexts; use fork guards such as `if: ${{ !github.event.pull_request.head.repo.fork }}` and safer trigger patterns.
 
 **Why this maps to AI Agent Security roles:** tool-using agents with privileged tokens share the same failure mode as CI runners with secrets—identity, sandboxing, and policy enforcement under automation.
+
+### Broader authorized research
+
+Research across 25+ programs on HackerOne, Intigriti, Bugcrowd, and YesWeHack. Submitted findings include high-severity SSRF via DNS rebinding and hostname-filter bypass, missing authentication on production APIs, S3 bucket enumeration via a misconfigured reverse proxy, and hardcoded production credentials in a decompiled Android APK. Built and verified a chained P1+P2 proof-of-concept against OpenAI's MCP program on Bugcrowd (credential exfiltration, session-log tampering, and a telemetry audit gap), including a working patch and full reproduction.
 
 Supporting pipeline (secondary): multi-platform research CRM, DoD VDP engagement practice, lab automation with scope enforcement (lab-only validation).
 
@@ -106,36 +115,49 @@ Agent session
 
 ---
 
-## 4. Related systems
+## 4. In development
 
-| System | What it is | How to read it |
-|--------|------------|----------------|
-| **Gideon** | Directed multi-component lab/BBP platform with scope enforcement, tests, Docker lab fleet | Lab methodology + agent orchestration—not a multi-tenant SaaS claim |
-| **CRISP / AITP** | AI traffic compression research prototype with measurement focus and patent packaging | Systems-thinking + measurement discipline—secondary differentiator |
-| **Scope Covenant (PPA-004 framing)** | Multi-barrier scope enforcement concept for autonomous assessment agents | Agent governance / liability control |
+The projects below are in development. None is a public product launch, and none claims customers or revenue.
+
+### HackSim — Gamified Cybersecurity Curriculum Platform (in development)
+
+Designed and built HackSim, a desktop cybersecurity training game (Electron, React, TypeScript) with a 19-node skill tree, an 8-axis competency web, and mission-based labs that run real tools inside isolated Docker Compose environments. Implemented seven mission definitions (recon, SQL injection, SSH password attacks, directory discovery, SSRF, EternalBlue, and credential dumping) plus an optional Express instructor API with authentication, progress tracking, cohort management, and LTI hooks for classroom use. Local MIT-licensed codebase; not published as a public product.
+
+### Cortex — Independent Bug-Bounty Research Platform (in development)
+
+Built and operate a Python research platform for authorized bug-bounty work: campaign state, program scope, and submission tracking, plus a SQLite knowledge store that maps MITRE ATT&CK techniques, OWASP entries, and tracked CVEs. Added a local FastAPI RAG service over that knowledge base and a separate bug-bounty intel index, using local embeddings (Ollama). The memory and process design (SQL source of truth, an LLM-facing mirror, journals, and write-back / scope / PoC gates) is summarized in this portfolio. Independent research on this platform includes the Critical, resolved HackerOne findings above.
+
+### Gideon Kanban — Self-Hosted Security-Operations Board (in development)
+
+Designed and deployed a FastAPI + SQLite kanban PWA for a multi-agent security workflow, running in Docker on a Raspberry Pi 5. The board imports an existing card database (documented 309-card snapshot), enforces role-scoped API tokens, and signs review webhooks. A companion reviewer service runs deterministic scope and evidence checks and a local-LLM advisory review; it cannot file reports or grant human approvals.
+
+### Gideon Edge Node — On-Prem MSSP Architecture (in development)
+
+Designed a managed-security edge-node architecture for small-site deployment: a containerized agent on a Raspberry Pi 5-class device with outbound-only remote access, local monitoring (logs, ARP/rogue-device detection, honeypot), and store-and-forward when the link drops. Documented a three-tier service model (Watchtower / Sentinel / Fortress) and a technician-console demo. This is a product design and prototype, not a claim of paying customers.
+
+**CRISP / AITP** — AI traffic compression research prototype (in development).
 
 ---
 
 ## 5. Resume-ready bullets
 
 - Designed a multi-store **agent memory plane** with mandatory memory-first lookup, write-back, and scope/PoC gates for AI-assisted offensive work.  
-- Conducted independent research resulting in **Critical, resolved** HackerOne findings on GitHub Actions `pull_request_target` secret-exfiltration chains.  
+- Conducted independent research resulting in **Critical, resolved** HackerOne findings on GitHub Actions `pull_request_target` secret-exfiltration chains, plus authorized research across 25+ programs (SSRF via DNS rebinding, authentication bypass, S3 enumeration, hardcoded credentials in an APK, and a chained P1+P2 PoC on OpenAI's MCP program).  
 - Designed a **threshold vault** (passphrase-gated AES-256-GCM under Shamir 3-of-5) so high-sensitivity secrets require multi-party unseal—no single superuser.  
 - Built structured research CRM and methodology packs so humans and agents share campaign state, scope rules, and submission outcomes.  
-- High-reliability technical leadership (U.S. Navy); GIAC GFACT/GSEC; GCIH in progress; TS/SCI-eligible.
+- Led incident response and security operations as Help Desk Manager / Security Officer at SimpleTech LLC (Sep 2025 – Nov 2026); hardened DoD STIG baselines as a Systems Analyst at Astraeus / Chenega across 8 servers on Unclassified and Secret networks.  
+- High-reliability technical leadership as a U.S. Navy Lead Missile Technician; GIAC GFACT/GSEC; SANS SEC504 complete, GCIH exam in progress; pursuing B.S. Cybersecurity at SANS Technology Institute (expected 2028); TS/SCI (inactive, not expired; eligible for reactivation). Granted May 2022.
 
 ---
 
 ## 6. Best-fit roles
 
-1. **AI Security Engineer / AI Red Team Engineer**  
-2. **Agent Security Researcher / Engineer**  
-3. **Forward-deployed / Solutions** roles for agentic platforms (security flavor)  
-4. **Security Engineer** (AI automation / hybrid SecOps) as accessible bridge  
+1. **Offensive Security Engineer / Penetration Tester**
+2. **AI Security Engineer / AI Red Team Engineer**
+3. **Agent Security Researcher / Engineer**
+4. **Security Engineer** (AI automation / hybrid SecOps) as accessible bridge
 
 **Constraint:** U.S. remote (or remote-first). Not relocating. Skip hard onsite-only San Francisco / Seattle / London seats unless a real remote track exists.
-
-See [`TARGET_COMPANIES.md`](./TARGET_COMPANIES.md) for organizations that historically pay for this mix (remote-filtered guidance included).
 
 ---
 
@@ -143,6 +165,6 @@ See [`TARGET_COMPANIES.md`](./TARGET_COMPANIES.md) for organizations that histor
 
 | File | Purpose |
 |------|---------|
-| [README.md](./README.md) | This portfolio (public)
+| [README.md](./README.md) | This portfolio (public) |
 
 **Security note:** This repository is intentionally free of credentials, private IPs, hostnames, tokens, and internal paths. Offensive writeups stay at the public technical-class level; program-specific non-public details are omitted.
